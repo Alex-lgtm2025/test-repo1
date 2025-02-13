@@ -2,6 +2,7 @@
 class Users:
     def __init__(self, login, password, access_rights):
         self.login = login
+        
         self.password = password
         self.access_rights = None
 
@@ -26,5 +27,5 @@ class Users:
 
 us_er = Users
 users = {"user6":"123456789", "user7":"pass12345"}
-login = input("Введите имя пользователя")
-password = input("Введите пароль")
+login = input("aleksandr")
+password = input("1q2w3e4r5t6y")
